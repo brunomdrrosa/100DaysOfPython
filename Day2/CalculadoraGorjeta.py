@@ -1,9 +1,9 @@
 #If the bill was $150.00, split between 5 people, with 12% tip. 
-#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Each person should pay (150.00 / 5) * 1.12 = 33.6 
 #Round the result to 2 decimal places.
 print("Bem-vindo a calculadora de gorjeta")
 conta = float(input("Qual foi o total da conta? R$"))
-gorjeta = int(input("Qual percentual de gorjeta você quer dar? 10, 12, or 15? "))
+gorjeta = int(input("Qual percentual de gorjeta você quer dar? 10, 12, ou 15? "))
 pessoas = int(input("Quantas pessoas para dividar a conta? "))
 
 gorjeta_percentual = gorjeta / 100
