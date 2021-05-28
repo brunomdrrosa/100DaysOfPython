@@ -7,4 +7,4 @@ animal = input("Qual o nome do seu animal de estimação?\n")
 #4. Combine the name of their city and pet and show them their band name.
 print("O nome da sua banda pode ser " + cidade + " " + animal)
 #5. Make sure the input cursor shows on a new line, see the example at:
-#   https://band-name-generator-end.appbrewery.repl.run/
+# https://band-name-generator-end.appbrewery.repl.run/
