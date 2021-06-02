@@ -15,7 +15,6 @@ print(logo)
 
 #Testing code
 print("Bem-vindo ao Jogo da Forca do Brasileirão 2021")
-print(f'Ei, a palavra é {palavra_escolhida}.')
 
 #Create blanks
 campos = []
