@@ -45,7 +45,7 @@ while campos != palavra_escolhida_lista:
         print(f"Você escolheu a letra {palpite}, porém ela não está na palavra. Você perdeu uma vida! ")
         if vidas == 0:
             campos != palavra_escolhida_lista
-            print("Você perdeu.")    
+            print(f"Você perdeu. A palavra era {palavra_escolhida}")    
 
 
     #Join all the elements in the list and turn it into a String.
