@@ -7,7 +7,6 @@ from palavras import lista_palavras
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 #Delete this line: word_list = ["ardvark", "baboon", "camel"]
 palavra_escolhida = random.choice(lista_palavras)
-
 vidas = 6
 
 #TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
@@ -15,6 +14,7 @@ print(logo)
 
 #Testing code
 print("Bem-vindo ao Jogo da Forca do Brasileirão 2021")
+print('Caso queira adicionar um espaço, digite "*"')
 
 #Create blanks
 campos = []
@@ -46,14 +46,18 @@ while campos != palavra_escolhida_lista:
         if vidas == 0:
             campos != palavra_escolhida_lista
             print(f"Você perdeu. A palavra era {palavra_escolhida}")    
-
+            
 
     #Join all the elements in the list and turn it into a String.
     print(f"{' '.join(campos)}")    
 
     #Check if user has got all letters.
+    
     if campos == palavra_escolhida_lista:
         print("Parabéns, você ganhou!")
 
     #TODO-2: - Import the stages from hangman_art.py and make this error go away.
     print(stages[vidas])
+
+    if vidas == 0:
+        exit()

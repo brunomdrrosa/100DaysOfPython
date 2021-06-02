@@ -1,8 +1,8 @@
 lista_palavras = [
-"america mineiro",
-"america paranaense",
-"atletico goianiense",
-"atletico mineiro",
+"america*mineiro",
+"america*paranaense",
+"atletico*goianiense",
+"atletico*mineiro",
 "bahia", 
 "ceara",
 "chapecoense",
@@ -18,6 +18,6 @@ lista_palavras = [
 "bragantino", 
 "fortaleza",
 "santos",
-"sao paulo",
+"sao*paulo",
 "sport",
 ]
