@@ -295,4 +295,3 @@ dados = [
     }
 ]
 # https://33giga.com.br/brasileiros-mais-seguidos-do-instagram/
-# Parei na Isis Valverde (Juliette já foi)
