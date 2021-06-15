@@ -103,7 +103,7 @@ def cappuccino():
                     print("Aqui está o seu café Cappuccino")
                     menu()
                 else:
-                    print(f"Desculpe, isso não é suficiente para comprar o café, ele custa R$ 4,00 e você pagou R$ {dinheiro:.2f}\nDinheiro reembolsado")
+                    print(f"Desculpe, isso não é suficiente para comprar o café, ele custa R$ 5,00 e você pagou R$ {dinheiro:.2f}\nDinheiro reembolsado")
                     menu()
             else:
                 print("Desculpe, não temos grãos de café suficiente para fazer o café")
