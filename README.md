@@ -6,9 +6,9 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-dia-1-->-dia-10">Dia 1 -> 10</a> •
- <a href="#-dia-11-->-dia-20">Dia 11 -> 20</a> •
- <a href="#-autor">Autor</a>
+ <a href="#-dia-1---dia-10">Dia 1 -> 10</a> •
+ <a href="#-dia-11---dia-20">Dia 11 -> 20</a> •
+ <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
 ## 💻 Sobre
