@@ -7,7 +7,7 @@
 <p align="center">
  <a href="#-sobre">Sobre</a> •
  <a href="#-dia-1-->-dia-10">Dia 1 -> 10</a> •
-  <a href="#-dia-1-->-dia-10">Dia 11 -> 20</a> •
+ <a href="#-dia-11-->-dia-20">Dia 11 -> 20</a> •
  <a href="#-autor">Autor</a>
 </p>
 
@@ -77,6 +77,115 @@ Dia 5
 <h3 align="center">Gerador de Senha 🔐
 <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day5/geradorSenha.py"><img src="https://i.imgur.com/GSF0M3J.png"/></a>	
 </h3>
+<h2 align="center">
+Dia 6
+</h2>
+<h4 align="center">
+• Funções • While •
+</h4>
+<h3 align="center"> Labirinto do Reeborg's World 🤖
+<a href="https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json"><img src="https://i.imgur.com/WcA3huW.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 7
+</h2>
+<h3 align="center"> Jogo da Forca Brasileirão 2021 ⚽
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day7/JogoDaForcaBrasileirao2021.py"><img src="https://i.imgur.com/SzmKzfI.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 8
+</h2>
+<h4 align="center">
+• Argumentos e Parâmetros nas Funções •
+</h4>
+<h3 align="center"> Cifra de César 🤫
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day8/CifraDeCesar.py"><img src="https://i.imgur.com/b9uarPJ.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 9
+</h2>
+<h4 align="center">
+• Dicionários •
+</h4>
+<h3 align="center"> Leilão às cegas 🔨👨‍⚖️
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day9/LeilaoAsCegas.py"><img src="https://i.imgur.com/Kamhwyx.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 10
+</h2>
+<h4 align="center">
+• Funções com Output •
+</h4>
+<h3 align="center"> Calculadora 🖩
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day10/calculadora.py"><img src="https://i.imgur.com/p8YIgzH.png"/></a>	
+</h3>
+
+## 🚧 Dia 11 -> Dia 20
+
+<h2 align="center">
+Dia 11
+</h2>
+<h3 align="center"> Blackjack 🃏
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day11/blackjack.py"><img src="https://i.imgur.com/MTVMFwZ.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 12
+</h2>
+<h3 align="center"> Adivinhe o número 🤔
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day12/adivinharNumero.py"><img src="https://i.imgur.com/QD2wUJt.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 13
+</h2>
+<h4 align="center">
+• Depuração •
+</h4>
+<h3 align="center"> Depuração de projetos feitos anteriormente 🐞
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/tree/main/Day13"><img src="https://i.imgur.com/741KB5E.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 14
+</h2>
+<h3 align="center"> Higher Lower ⬆️⬇️
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day14/jogo.py"><img src="https://i.imgur.com/2GRph3N.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 15
+</h2>
+<h3 align="center"> Maquina de Café ☕ 
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day15/main.py"><img src="https://i.imgur.com/bmx96dm.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 16
+</h2>
+<h4 align="center">
+• Programação Orientada a Objetos • PrettyTable • Turtle
+</h4>
+<h3 align="center"> Tabela de Pokémon utilizando o PrettyTable 🖼️
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day16/tabela.py"><img src="https://i.imgur.com/YJah1Nd.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 17
+</h2>
+<h3 align="center"> Quiz utilizando POO ❓
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day17/main.py"><img src="https://i.imgur.com/5rL3B4O.png"/></a>	
+</h3>
+<h2 align="center">
+Dia 18
+</h2>
+<h4 align="center">
+• Turtle • GUI (Interface Gráfica do Usuário) •
+</h4>
+<h3 align="center"> Pintura de $30,000 de Damien Hirst 🎨
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day18/pintura_Damien_Hirst/main.py"><img src="https://i.imgur.com/43srwEO.png"/></a>
+<a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day18/pintura_Damien_Hirst/main.py"><img src="https://i.imgur.com/QJJlugL.jpg"/></a>	
+</h3>
+<h2 align="center">
+Dia 19
+</h2>
+<h1 align="center">
+EM BREVE ⚠️
+</h1>
 
 ---
 
