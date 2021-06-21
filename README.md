@@ -183,6 +183,13 @@ Dia 18
 <h2 align="center">
 Dia 19
 </h2>
+<h3 align="center"> Corrida de Tartaruga 🐢</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day19/corridaDeTartaruga.py"><img src="https://i.imgur.com/nhFzKBj.png"></a>
+</p>
+<h2 align="center">
+Dia 20
+</h2>	
 <h1 align="center">
 EM BREVE ⚠️
 </h1>
