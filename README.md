@@ -189,6 +189,13 @@ Dia 19
 </p>
 <h2 align="center">
 Dia 20
+</h2>
+<h3 align="center"> Jogo da Cobra - Parte 1/2 🐍⚠️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day20/jogoDaCobra/jogo.py"><img src="https://i.imgur.com/TxEhcb7.png"></a>
+</p>
+<h2 align="center">
+Dia 21
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
