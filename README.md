@@ -7,7 +7,7 @@
 <p align="center">
  <a href="#-sobre">Sobre</a> •
  <a href="#-dia-1---dia-15">Dia 1 -> 15</a> •
- <a href="#-dia-16---dia-30">Dia 16 -> 20</a> •
+ <a href="#-dia-16---dia-30">Dia 16 -> 30</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
