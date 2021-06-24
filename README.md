@@ -6,8 +6,8 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-dia-1---dia-10">Dia 1 -> 10</a> •
- <a href="#-dia-11---dia-20">Dia 11 -> 20</a> •
+ <a href="#-dia-1---dia-15">Dia 1 -> 15</a> •
+ <a href="#-dia-16---dia-30">Dia 16 -> 20</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
@@ -21,7 +21,7 @@ Coloquei aqui embaixo alguns projetos que eu realizei em cada dia que eu achei i
 
 ---
 
-## 🚧 Dia 1 -> Dia 10
+## 🚧 Dia 1 -> Dia 15
 
 <h2 align="center">
 Dia 1
@@ -119,9 +119,6 @@ Dia 10
 <h3 align="center"> Calculadora 🖩
 <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day10/calculadora.py"><img src="https://i.imgur.com/p8YIgzH.png"/></a>	
 </h3>
-
-## 🚧 Dia 11 -> Dia 20
-
 <h2 align="center">
 Dia 11
 </h2>
@@ -155,6 +152,9 @@ Dia 15
 <h3 align="center"> Maquina de Café ☕ 
 <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day15/main.py"><img src="https://i.imgur.com/bmx96dm.png"/></a>	
 </h3>
+
+## 🚧 Dia 16 -> Dia 30
+
 <h2 align="center">
 Dia 16
 </h2>
@@ -196,6 +196,13 @@ Dia 20
 </p>
 <h2 align="center">
 Dia 21
+</h2>
+<h3 align="center"> Jogo da Cobra - Parte 2/2 🐍✔️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day21/main.py"><img src="https://i.imgur.com/HnMMIKk.png"></a>
+</p>
+<h2 align="center">
+Dia 22
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
