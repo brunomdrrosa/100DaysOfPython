@@ -217,6 +217,13 @@ Dia 23
 </p>
 <h2 align="center">
 Dia 24
+</h2>
+<h3 align="center"> Nomes automáticos na mensagem ✉️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day24/main.py"><img src="https://i.imgur.com/OvFVRfT.png"></a>
+</p>
+<h2 align="center">
+Dia 25
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
