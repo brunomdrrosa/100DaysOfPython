@@ -224,6 +224,13 @@ Dia 24
 </p>
 <h2 align="center">
 Dia 25
+</h2>
+<h3 align="center"> Jogo dos estados do Brasil 🤔🚩</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day25/main.py"><img src="https://i.imgur.com/rQAkXOo.png"></a>
+</p>
+<h2 align="center">
+Dia 26
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
