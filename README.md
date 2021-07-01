@@ -231,6 +231,13 @@ Dia 25
 </p>
 <h2 align="center">
 Dia 26
+</h2>
+<h3 align="center"> Alfabeto da OTAN 🔤</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day26/alfabetoOTAN.py"><img src="https://i.imgur.com/fUy0J6q.png"></a>
+</p>
+<h2 align="center">
+Dia 27
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
