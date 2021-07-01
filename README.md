@@ -238,6 +238,13 @@ Dia 26
 </p>
 <h2 align="center">
 Dia 27
+</h2>
+<h3 align="center"> Conversor de Quilômetros para Milhas 🚗</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day27/conversorKmParaMilhas.py"><img src="https://i.imgur.com/6rhryIv.png"></a>
+</p>
+<h2 align="center">
+Dia 28
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
