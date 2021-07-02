@@ -245,6 +245,13 @@ Dia 27
 </p>
 <h2 align="center">
 Dia 28
+</h2>
+<h3 align="center"> Técnica Pomodoro 🍅</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day28/pomodoro.py"><img src="https://i.imgur.com/JLTOnUG.png"></a>
+</p>
+<h2 align="center">
+Dia 29
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
