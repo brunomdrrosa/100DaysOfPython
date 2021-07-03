@@ -252,6 +252,13 @@ Dia 28
 </p>
 <h2 align="center">
 Dia 29
+</h2>
+<h3 align="center"> Gerenciador de senhas 🔐</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day29/gerenciadorsenha.py"><img src="https://i.imgur.com/8NYMRFD.png"></a>
+</p>
+<h2 align="center">
+Dia 30
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
