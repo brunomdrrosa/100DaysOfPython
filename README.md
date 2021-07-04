@@ -262,7 +262,7 @@ Dia 30
 </h2>
 <h3 align="center"> Gerenciador de senhas com JSON 🔐🔎</h3>
 <p align="center">
-  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day30/gerenciadorsenha.py"><img src="https://i.imgur.com/KLEQAD2.png"></a>
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day30/gerenciadorsenha.py"><img src="https://i.imgur.com/xsZ7RbE.png"></a>
 </p>
 <h2 align="center">
 Dia 31
