@@ -6,8 +6,8 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-dia-1---dia-15">Dia 1 -> 15</a> •
- <a href="#-dia-16---dia-30">Dia 16 -> 30</a> •
+ <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
+ <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
@@ -21,7 +21,7 @@ Coloquei aqui embaixo alguns projetos que eu realizei em cada dia que eu achei i
 
 ---
 
-## 🚧 Dia 1 -> Dia 15
+## 🚧 Dia 1 -> Dia 20
 
 <h2 align="center">
 Dia 1
@@ -152,9 +152,6 @@ Dia 15
 <h3 align="center"> Maquina de Café ☕ 
 <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day15/main.py"><img src="https://i.imgur.com/bmx96dm.png"/></a>	
 </h3>
-
-## 🚧 Dia 16 -> Dia 30
-
 <h2 align="center">
 Dia 16
 </h2>
@@ -194,6 +191,9 @@ Dia 20
 <p align="center">
   <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day20/jogoDaCobra/jogo.py"><img src="https://i.imgur.com/TxEhcb7.png"></a>
 </p>
+
+## 🚧 Dia 21 -> Dia 40
+
 <h2 align="center">
 Dia 21
 </h2>
@@ -255,17 +255,24 @@ Dia 29
 </h2>
 <h3 align="center"> Gerenciador de senhas 🔐</h3>
 <p align="center">
-  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day29/gerenciadorsenha.py"><img src="https://i.imgur.com/8NYMRFD.png"></a>
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day29/gerenciadorSenha.py"><img src="https://i.imgur.com/8NYMRFD.png"></a>
 </p>
 <h2 align="center">
 Dia 30
 </h2>
 <h3 align="center"> Gerenciador de senhas com JSON 🔐🔎</h3>
 <p align="center">
-  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day30/gerenciadorsenha.py"><img src="https://i.imgur.com/xsZ7RbE.png"></a>
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day30/gerenciadorSenha.py"><img src="https://i.imgur.com/xsZ7RbE.png"></a>
 </p>
 <h2 align="center">
 Dia 31
+</h2>
+<h3 align="center"> Flashcard 🃏</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day31/flashcard.py"><img src="https://i.imgur.com/zYwiNCn.png"></a>
+</p>
+<h2 align="center">
+Dia 32
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
