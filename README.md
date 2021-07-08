@@ -279,7 +279,15 @@ Dia 32
   <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day32/aniversario.py"><img src="https://i.imgur.com/gFFMnlQ.png"></a>
 </p>
 <h2 align="center">
+<h2 align="center">
 Dia 33
+</h2>
+<h3 align="center"> Citações do Kanye West com API 🧑🏿‍🎤</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day33/kanye.py"><img src="https://i.imgur.com/WOFxwfT.png"></a>
+</p>
+<h2 align="center">
+Dia 34
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
