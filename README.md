@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-quiz-sobre-videogames-com-api-">Último projeto</a> •
+ <a href="#dia-35">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
@@ -295,6 +295,13 @@ Dia 34
 </p>
 <h2 align="center">
 Dia 35
+</h2>
+<h3 align="center"> Notificador de chuva por SMS 🌧️📱</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day35/alerta_chuva.py"><img src="https://i.imgur.com/rccv18C.png"></a>
+</p>
+<h2 align="center">
+Dia 36
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
