@@ -51,7 +51,7 @@ percentual_diferenca = round((diferenca / preco_ontem_brl) * 100)
 
 # If TODO4 percentage is greater than 5 then print("Get News").
 # Instead of printing ("Get News"), use the News API to get articles related to the COMPANY_NAME.
-if abs(percentual_diferenca) > 0.5:
+if abs(percentual_diferenca) > 5:
     parametros_noticias = {
         "apiKey": API_NEWSAPI,
         "qInTitle": COMPANY_NAME,
