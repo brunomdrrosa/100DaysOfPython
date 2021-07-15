@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-38">Último projeto</a> •
+ <a href="#dia-39">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
@@ -323,6 +323,13 @@ Dia 38
 </p>
 <h2 align="center">
 Dia 39
+</h2>
+<h3 align="center"> Alerta de passagens aéreas ✈️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day39/main.py"><img src="https://i.imgur.com/pFq7mT0.png"></a>
+</p>
+<h2 align="center">
+Dia 40
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
