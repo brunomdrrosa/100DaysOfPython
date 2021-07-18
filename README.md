@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-41">Último projeto</a> •
+ <a href="#dia-42">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -351,6 +351,16 @@ Dia 41
 </p>
 <h2 align="center">
 Dia 42
+</h2>
+<h4 align="center">
+• Fundamentos intermediários de HTML para utilização do Beautiful Soup e Selenium, futuramente •
+</h4>
+<h3 align="center"> Criação de um site pessoal no HTML - Parte 2/2 🌐✔️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day42/index.html"><img src="https://i.imgur.com/ZNDcsSu.png"></a>
+</p>
+<h2 align="center">
+Dia 43
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
