@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-42">Último projeto</a> •
+ <a href="#dia-44">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -361,6 +361,26 @@ Dia 42
 </p>
 <h2 align="center">
 Dia 43
+</h2>
+<h4 align="center">
+• Fundamentos básicos de CSS •
+</h4>
+<h3 align="center"> Estilização do site pessoal - Parte 1/2 🎨⚠️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/tree/main/Day43"><img src="https://i.imgur.com/xG6o3bT.png"></a>
+</p>
+<h2 align="center">
+Dia 44
+</h2>
+<h4 align="center">
+• Fundamentos intermediários de CSS •
+</h4>
+<h3 align="center"> Estilização do site pessoal - Parte 2/2 🎨✔️</h3>
+<p align="center">
+  <a href="https://bruno-machado.netlify.app/"><img src="https://i.imgur.com/SLQghSG.png"></a>
+</p>
+<h2 align="center">
+Dia 45
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
