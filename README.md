@@ -381,6 +381,13 @@ Dia 44
 </p>
 <h2 align="center">
 Dia 45
+</h2>
+<h3 align="center"> Lista de top 100 filmes com BeautifulSoup 💯🍲</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day45/top-100-filmes/filmes.py"><img src="https://i.imgur.com/uiB9sQx.png"></a>
+</p>
+<h2 align="center">
+Dia 46
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
