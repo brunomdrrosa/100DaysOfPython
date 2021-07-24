@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-48">Último projeto</a> •
+ <a href="#dia-49">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -409,6 +409,13 @@ Dia 48
 </p>
 <h2 align="center">
 Dia 49
+</h2>
+<h3 align="center"> Salvar vagas de emprego no LinkedIn 💼</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day49/linkedin.py"><img src="https://media.giphy.com/media/vi4bYB9jUIR5Nxzdys/giphy.gif"></a>
+</p>
+<h2 align="center">
+Dia 50
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
