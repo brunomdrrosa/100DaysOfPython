@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-49">Último projeto</a> •
+ <a href="#dia-50">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -416,6 +416,13 @@ Dia 49
 </p>
 <h2 align="center">
 Dia 50
+</h2>
+<h3 align="center"> Bot do Tinder 🔥</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day50/tinder.py"><img src="https://media.giphy.com/media/NiYlN6eW5LsmLTGv1o/giphy.gif"></a>
+</p>
+<h2 align="center">
+Dia 51
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
