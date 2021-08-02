@@ -4,7 +4,7 @@ from time import sleep
 import os
 
 # Limitei em 90Mbps de download por conta do meu computador não chegar aos 100Mpbs por causa da placa de rede.
-DOWNLOAD_PROMETIDO = 100.0
+DOWNLOAD_PROMETIDO = 90.0
 UPLOAD_PROMETIDO = 10.0
 CHROME_DRIVER_PATH = "C:/Users/bruno/OneDrive/Documentos/chromedriver.exe"
 TWITTER_EMAIL = os.getenv("EMAIL")

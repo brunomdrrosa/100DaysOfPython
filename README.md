@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-50">Último projeto</a> •
+ <a href="#dia-51">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -423,6 +423,13 @@ Dia 50
 </p>
 <h2 align="center">
 Dia 51
+</h2>
+<h3 align="center"> Bot do Twitter 🐦</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day51/twitter.py"><img src="https://i.imgur.com/F5DmGUg.png"></a>
+</p>
+<h2 align="center">
+Dia 52
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
