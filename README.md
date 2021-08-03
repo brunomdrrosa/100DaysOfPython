@@ -430,6 +430,13 @@ Dia 51
 </p>
 <h2 align="center">
 Dia 52
+</h2>
+<h3 align="center"> Bot para seguir pessoas no Instagram 📸</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day52/instagram.py"><img src="https://i.imgur.com/tuaMmUz.png"></a>
+</p>
+<h2 align="center">
+Dia 53
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
