@@ -437,6 +437,13 @@ Dia 52
 </p>
 <h2 align="center">
 Dia 53
+</h2>
+<h3 align="center"> Planilha de pesquisa de aluguel automatizada 🏠</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day53/aluguel.py"><img src="https://i.imgur.com/T67gHOM.png"></a>
+</p>
+<h2 align="center">
+Dia 54
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
