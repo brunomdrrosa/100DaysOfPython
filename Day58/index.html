@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="favicon.png"/>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
     <title>TinDog</title>
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Fontes usadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS importado -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Bootstrap com JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -26,6 +40,7 @@
   <body>
     <section id="title">
       <!-- Nav Bar -->
+      <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">TinDog</a>
 
@@ -44,34 +59,31 @@
         <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contato</a>
+              <a class="nav-link" href="#footer">Contato</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="">Preços</a>
+              <a class="nav-link" href="#pricing">Preços</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
+        
       </nav>
-
-      I have checked for other options but nothing worked. Please check and let
-      me know if I am missing something. Everything is working fine, only the
-      menu bar is not shifting to right.
 
       <!-- Title -->
 
       <div class="row">
         <div class="col-lg-6">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <h1 class="big-heading">Conheça novos cães interessantes nas proximidades.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
-        <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup" />
+        <div class="iphone col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup" />
         </div>
       </div>
     </section>
@@ -79,81 +91,142 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      
+      <div class="row">
+      <div class="feature-box col-lg-4">
+      <i class="icon fas fa-check-circle fa-5x"></i>
+      <h3>Fácil de utilizar</h3>
+      <p>Tão fácil de usar que até seu cachorro poderia fazer isso.</p>
+      </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature-box col-lg-4">
+      <i class="icon fas fa-dog fa-5x"></i>
+      <h3>Clientes de elite</h3>
+      <p>Temos todos os tipos de cães, até mesmo os melhores.</p>
+      </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <div class="feature-box col-lg-4">
+      <i class="icon fas fa-heart fa-5x"></i>
+      <h3>Garantia</h3>
+      <p>Encontre o amor da vida do seu cachorro ou receba seu dinheiro de volta.</p>
+      </div>
+    </div>
+
+
+
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>
-        I no longer have to sniff other dogs for love. I've found the hottest
-        Corgi on TinDog. Woof.
-      </h2>
-      <img src="images/dog-img.jpg" alt="dog-profile" />
-      <em>Pebbles, New York</em>
 
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              Não preciso mais farejar outros cães por amor. Eu encontrei o Corgi 
+              mais bonito possível no TinDog. Woof.
+            </h2>
+            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile" />
+            <em>Thor, São Paulo</em>
+          </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Meu cachorro costumava ser tão solitário, mas com a ajuda do TinDog, ele encontrou o amor de suas vidas, eu acho.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Alice, Rio de Janeiro</em>
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+      </div>
     </section>
 
     <!-- Press -->
 
     <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
     </section>
 
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <h2>Um plano para as necessidades de cada cachorro</h2>
+      <p class="paragraph-price">Planos com preços acessíveis para você e seu cachorro.</p>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pug</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Grátis<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Matches por dia</li>
+              <li>10 mensagens por dia</li>
+              <li>Uso ilimitado do aplicativo</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Cadastre-se</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Labrador</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$9,90<small class="text-muted fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Matches ilimitados</li>
+              <li>Mensagens ilimitadas</li>
+              <li>Uso ilimitado do aplicativo</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Cadastre-se</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pitbull</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$25,90<small class="text-muted fw-light">/mês</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Lista de prioridade</li>
+              <li>Matches ilimitados</li>
+              <li>Mensagens ilimitadas</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Cadastre-se</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-text">Encontre o verdadeiro amor da vida do seu cachorro hoje.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+      <i class="social-icon fab fa-facebook"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 TinDog</p>
     </footer>
   </body>
 </html>
