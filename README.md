@@ -10,6 +10,7 @@
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
+  <a href="#-dia-61---dia-80">Dia 61 -> 80</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
@@ -489,7 +490,21 @@ Dia 59
 <h1 align="center">
 EM BREVE ⚠️
 </h1>
+<h2 align="center">
+Dia 60
+</h2>	
+<h1 align="center">
+EM BREVE ⚠️
+</h1>
 
+## 🚧 Dia 61 -> Dia 80
+
+<h2 align="center">
+Dia 61
+</h2>	
+<h1 align="center">
+EM BREVE ⚠️
+</h1>
 
 ---
 
