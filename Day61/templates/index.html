@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+Segredos
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <div class="container">
+    <h1>Bem-vindo</h1>
+    <p>Você está pronto para descobrir o meu segredo?</p>
+    <a class="btn btn-primary btn-lg" href=" {{ url_for('login') }} ">Login</a>
+    </div>
+</div>
+{% endblock %}
