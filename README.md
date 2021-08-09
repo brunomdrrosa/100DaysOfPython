@@ -486,7 +486,11 @@ Dia 58
 </p>
 <h2 align="center">
 Dia 59
-</h2>	
+</h2>
+<h3 align="center"> Blog com API e Flask estilizado 📰🎨</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day59/main.py"><img src="https://i.imgur.com/at91RQD.png"></a>
+</p>
 <h1 align="center">
 EM BREVE ⚠️
 </h1>
