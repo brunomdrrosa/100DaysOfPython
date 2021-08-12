@@ -6,6 +6,11 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
 
+MOVIE_DB_API_KEY = "60241d17e5f315ad87865d492f134cd2"
+MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/tv"
+MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/tv"
+MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap(app)
@@ -29,25 +34,76 @@ class Movie(db.Model):
 db.create_all()
 
 
-## After adding the new_movie the code needs to be commented out/deleted.
-## So you are not trying to add the same movie twice.
-# new_movie = Movie(
-#     title="O Gambito da Rainha",
-#     year=2020,
-#     description="O Gambito da Rainha conta a história de Beth Harmon (Anya Taylor-Joy), uma menina órfã que se revela um prodígio do xadrez. Mas agora, aos 22 anos, ela precisa enfrentar seu vício para conseguir se tornar a maior jogadora do mundo.",
-#     rating=8.3,
-#     ranking=5,
-#     review="Minha personagem favorita era Beth.",
-#     img_url="https://br.web.img3.acsta.net/pictures/20/09/25/09/06/0492330.jpg"
-# )
-# db.session.add(new_movie)
-# db.session.commit()
+class FindMovieForm(FlaskForm):
+    title = StringField("Título da série", validators=[DataRequired()])
+    submit = SubmitField("Adicionar série")
+
+
+class RateMovieForm(FlaskForm):
+    rating = StringField("Sua nota para série de 0 a 10 (ex. 7.5)")
+    review = StringField("Sua crítica")
+    submit = SubmitField("Enviar")
 
 
 @app.route("/")
 def home():
-    all_movies = Movie.query.all()
+    all_movies = Movie.query.order_by(Movie.rating).all()
+    for i in range(len(all_movies)):
+        all_movies[i].ranking = len(all_movies) - i
+    db.session.commit()
     return render_template("index.html", movies=all_movies)
+
+
+@app.route("/add", methods=["GET", "POST"])
+def add_movie():
+    form = FindMovieForm()
+    if form.validate_on_submit():
+        movie_title = form.title.data
+
+        response = requests.get(MOVIE_DB_SEARCH_URL, params={"api_key": MOVIE_DB_API_KEY, "query": movie_title})
+        data = response.json()["results"]
+        return render_template("select.html", options=data)
+    return render_template("add.html", form=form)
+
+
+@app.route("/find")
+def find_movie():
+    movie_api_id = request.args.get("id")
+    if movie_api_id:
+        movie_api_url = f"{MOVIE_DB_INFO_URL}/{movie_api_id}"
+        response = requests.get(movie_api_url, params={"api_key": MOVIE_DB_API_KEY, "language": "pt-BR"})
+        data = response.json()
+        new_movie = Movie(
+            title=data["original_name"],
+            year=data["first_air_date"].split("-")[0],
+            img_url=f"{MOVIE_DB_IMAGE_URL}{data['poster_path']}",
+            description=data["overview"]
+        )
+        db.session.add(new_movie)
+        db.session.commit()
+        return redirect(url_for("rate_movie", id=new_movie.id))
+
+
+@app.route("/edit", methods=["GET", "POST"])
+def rate_movie():
+    form = RateMovieForm()
+    movie_id = request.args.get("id")
+    movie = Movie.query.get(movie_id)
+    if form.validate_on_submit():
+        movie.rating = float(form.rating.data)
+        movie.review = form.review.data
+        db.session.commit()
+        return redirect(url_for('home'))
+    return render_template("edit.html", movie=movie, form=form)
+
+
+@app.route("/delete")
+def delete_movie():
+    movie_id = request.args.get("id")
+    movie = Movie.query.get(movie_id)
+    db.session.delete(movie)
+    db.session.commit()
+    return redirect(url_for("home"))
 
 
 if __name__ == '__main__':
