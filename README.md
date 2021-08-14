@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-65">Último projeto</a> •
+ <a href="#dia-67">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -532,12 +532,26 @@ Dia 64
 <h2 align="center">
 Dia 65
 </h2>
-<h3 align="center"> Web Design no Canva </h3>
+<h3 align="center"> Web Design no Canva 🖌️</h3>
 <p align="center">
   <a href="https://www.canva.com/design/DAEnABfxNGs/n2Y5SyedMJyqAbDJjzx33g/view?website#4"><img src="https://i.imgur.com/xAb6ycW.png"></a>
 </p>
 <h2 align="center">
 Dia 66
+</h2>
+<h3 align="center"> Criando a própria API e documentação ☕</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day66/main.py"><img src="https://i.imgur.com/iznoy9P.png"></a>
+</p>
+<h2 align="center">
+Dia 67
+</h2>
+<h3 align="center"> Blog com novas funcionalidades 📰</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day67/main.py"><img src="https://i.imgur.com/0UnXLQ7.png"></a>
+</p>
+<h2 align="center">
+Dia 68
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
