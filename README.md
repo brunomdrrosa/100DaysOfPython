@@ -562,7 +562,7 @@ Dia 69
 </h2>
 <h3 align="center"> Blog com comentários 💬</h3>
 <p align="center">
-  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day69/main.py"><img src="https://i.imgur.com/PqsTP0h.png"></a>
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day69/main.py"><img src="https://img-c.udemycdn.com/redactor/raw/2020-10-22_16-32-53-16983961ed0d342c46cc0805ce74fc0a.png"></a>
 </p>
 <h2 align="center">
 Dia 70
