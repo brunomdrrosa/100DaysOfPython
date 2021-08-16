@@ -559,6 +559,13 @@ Dia 68
 </p>
 <h2 align="center">
 Dia 69
+</h2>
+<h3 align="center"> Blog com comentários 💬</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day69/main.py"><img src="https://i.imgur.com/PqsTP0h.png"></a>
+</p>
+<h2 align="center">
+Dia 70
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
