@@ -566,6 +566,13 @@ Dia 69
 </p>
 <h2 align="center">
 Dia 70
+</h2>
+<h3 align="center"> Blog funcional com Heroku 🌐</h3>
+<p align="center">
+  <a href="https://blog-do-bruno.herokuapp.com/"><img src="https://i.imgur.com/dKSARA9.png"></a>
+</p>
+<h2 align="center">
+Dia 71
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
