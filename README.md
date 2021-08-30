@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-71">Último projeto</a> •
+ <a href="#dia-72">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -580,6 +580,13 @@ Dia 71
 </p>
 <h2 align="center">
 Dia 72
+</h2>
+<h3 align="center"> Data Exploration com gráficos 📈</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day72/Programming_Languages_(start).ipynb"><img src="https://i.imgur.com/YVFbIoz.png"></a>
+</p>
+<h2 align="center">
+Dia 73
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
