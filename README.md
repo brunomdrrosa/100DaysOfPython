@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-74">Último projeto</a> •
+ <a href="#dia-76">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -608,6 +608,13 @@ Dia 75
 </p>
 <h2 align="center">
 Dia 76
+</h2>
+<h3 align="center"> Introdução ao NumPy e ao SciPy 🐍</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day76/Computation_with_NumPy_and_N_Dimensional_Arrays_(start).ipynb"><img src="https://i.imgur.com/5dT4fTa.png"></a>
+</p>
+<h2 align="center">
+Dia 77
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
