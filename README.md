@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-78">Último projeto</a> •
+ <a href="#dia-79">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -629,6 +629,13 @@ Dia 78
 </p>
 <h2 align="center">
 Dia 79
+</h2>
+<h3 align="center"> Tragédia da Higiene das mãos 🧼👏</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day79/Dr_Semmelweis_Handwashing_Discovery_(start).ipynb"><img src="https://i.imgur.com/wcmLU56.png"></a>
+</p>
+<h2 align="center">
+Dia 80
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
