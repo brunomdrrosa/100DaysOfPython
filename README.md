@@ -593,7 +593,7 @@ Dia 73
   <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day73/Lego_Analysis_for_Course_(start).ipynb"><img src="https://i.imgur.com/1kzMsiH.png"></a>
 </p>
 <h2 align="center">
-Dia 73
+Dia 74
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
