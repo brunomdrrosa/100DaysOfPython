@@ -675,6 +675,13 @@ Dia 84
 </p>
 <h2 align="center">
 Dia 85
+</h2>
+<h3 align="center"> Teste de Digitação ⌨️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day85/typingSpeed.py"><img src="https://i.imgur.com/e10CNdq.png"></a>
+</p>
+<h2 align="center">
+Dia 86
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
