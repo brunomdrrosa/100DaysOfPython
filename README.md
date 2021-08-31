@@ -724,6 +724,13 @@ Dia 91
 </p>
 <h2 align="center">
 Dia 92
+</h2>
+<h3 align="center"> Jogos mais jogados na Steam 🎮</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day92/main.py"><img src="https://i.imgur.com/zxPyZHM.png"></a>
+</p>
+<h2 align="center">
+Dia 93
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
