@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Gerador de paleta de cores de imagem
+{% endblock %}
+
+{% block content %}
+<div class="main">
+    <img src="{{image}}" class='result-image'>
+    <table class='table'>
+        <tr>
+            <th>Cor</th>
+            <th>Código Hexadecimal</th>
+            <th>Porcentagem da cor</th>
+        </tr>
+        {% for color, count in colors.items() %}
+        <tr>
+            <td>
+                <button class='box' style="background-color:{{color}};" onclick="hex_copied('{{color}}')"></button>
+            </td>
+            <td>{{color}}</td>
+            <td>{{count}}%</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{url_for('home')}}" class='btn btn-primary'>Voltar</a>
+</div>
+{% endblock %}
+            
+        

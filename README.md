@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-90">Último projeto</a> •
+ <a href="#dia-91">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -717,6 +717,13 @@ Dia 90
 </p>
 <h2 align="center">
 Dia 91
+</h2>
+<h3 align="center"> Gerador de paleta de cores de imagem 🎨</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day91/main.py"><img src="https://i.imgur.com/94M7fQ4.png"></a>
+</p>
+<h2 align="center">
+Dia 92
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
