@@ -689,6 +689,13 @@ Dia 86
 </p>
 <h2 align="center">
 Dia 87
+</h2>
+<h3 align="center"> Café & Wi-Fi ☕📶</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day87/main.py"><img src="https://i.imgur.com/5R6J1ks.png"></a>
+</p>
+<h2 align="center">
+Dia 88
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️

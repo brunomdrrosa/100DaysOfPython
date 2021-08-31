@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Café & WiFi</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="static/assets/img/favicon.png" rel="icon">
+    <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+    <!--    FontAwesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Vendor CSS Files -->
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <h1 class="logo"><a href="{{ url_for('home') }}">Café & WiFi</a></h1>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="/#coffee-shops">Cafeterias</a></li>
+                <li><a href="/add">Adicionar Cafeterias</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+<body>
+
+<script>
+  function outputUpdate(seats) {
+    var num_seats = seats
+    if (seats == 50) {
+      num_seats = "50 +"
+    }
+    document.querySelector('#selected-seats').value = num_seats
+  }
+
+
+
+</script>
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container-fluid">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <ol>
+                        <li><a href="/">Home</a></li>
+                        <li>Adicionar Cafeterias</li>
+                    </ol>
+                    <h2>Adicionar Cafeterias</h2>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Form Section ======= -->
+
+    <section class="inner-page">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <form method="POST" action="/add" class="form">
+
+                        <div class="form-group row"><label for="name">Nome</label> <input class="form-control"
+                                                                                               id="name" name="name"
+                                                                                               required type="text"
+                                                                                               value=""></div>
+                        <div class="form-group row"><label for="map_url">URL do Google Maps</label> <input
+                                class="form-control" id="map_url" name="map_url" required type="text" value=""></div>
+                        <div class="form-group row"><label for="img_url">URL da imagem da cafeteria</label> <input class="form-control"
+                                                                                                  id="img_url"
+                                                                                                  name="img_url"
+                                                                                                  required type="text"
+                                                                                                  value=""></div>
+                        <div class="form-group row"><label for="location">Localização</label> <input
+                                class="form-control" id="location" name="location" required type="text" value=""></div>
+
+                        <div class="form-check mb-4" style="margin-top: 1.5rem;"><input class="form-check-input" id="has_sockets"
+                                                                name="has_sockets" type="checkbox" value=1><input id='has_socketsHidden' type='hidden' value=0 name='has_sockets'>
+                            <label class="form-check-label" for="has_sockets">Tomadas disponíveis?</label></div>
+                        <div class="form-check mb-4"><input class="form-check-input" id="has_toilet"
+                                                                name="has_toilet" type="checkbox" value=1><input id='has_toiletHidden' type='hidden' value=0 name='has_toilet'>
+ <label
+                                class="form-check-label" for="has_toilet">Banheiros disponíveis?</label></div>
+                        <div class="form-check mb-4"><input class="form-check-input" id="has_wifi" name="has_wifi"
+                                                                type="checkbox" value=1><input id='has_wifiHidden' type='hidden' value=0 name='has_wifi'> <label
+                                class="form-check-label" for="has_wifi">Wifi disponíveis?</label></div>
+                        <div class="form-check mb-4"><input class="form-check-input" id="can_take_calls"
+                                                                name="can_take_calls" type="checkbox" value=1><input id='can_take_callsHidden' type='hidden' value=0 name='can_take_calls'> <label
+                                class="form-check-label" for="can_take_calls">Pode receber chamadas?</label></div>
+
+                        <div class="form-group row"><label for="seats">Quantos bancos?</label> <input
+                                class="form-range" id="seats" max="50" name="seats" oninput="outputUpdate(value)"
+                                required step="10" type="range" value="0">
+                            <output for="seats" id="selected-seats">0</output>
+                        </div>
+                        <div class="form-group row"><label for="coffee_price">Preço do café</label> <input
+                                class="form-control" id="coffee_price" name="coffee_price" type="text" value=""></div>
+
+                        <div class="form-group row"><input class="btn btn-primary" id="submit" name="submit"
+                                                           type="submit" value="Add Cafe"></div>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="container">
+        <h3>Café & WiFi</h3>
+        <p>Um site que permite que você escolha a melhor cafeteria para você <i class="fas fa-coffee"></i>
+
+</p>
+        <div class="social-links">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>Bruno</span></strong>
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="static/assets/vendor/php-email-form/validate.js"></script>
+<script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
