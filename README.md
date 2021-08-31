@@ -6,11 +6,12 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-79">Último projeto</a> •
+ <a href="#dia-80">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
  <a href="#-dia-61---dia-80">Dia 61 -> 80</a> •
+ <a href="#-dia-81---dia-100">Dia 81 -> 100</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
@@ -636,6 +637,16 @@ Dia 79
 </p>
 <h2 align="center">
 Dia 80
+</h2>
+<h3 align="center"> Prever preços de casas em Boston 🏠</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day80/Multivariable_Regression_and_Valuation_Model_(start).ipynb"><img src="https://i.imgur.com/nkR9IDe.png"></a>
+</p>
+
+## 🚧 Dia 81 -> Dia 100
+
+<h2 align="center">
+Dia 81
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
