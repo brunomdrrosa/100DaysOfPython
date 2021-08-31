@@ -650,7 +650,7 @@ Dia 81
 </h2>
 <h3 align="center"> Conversor de texto para Código Morse 🔐</h3>
 <p align="center">
-  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day81/codigoMorse.py"><img src="https://i.imgur.com/QTdcRgg.png"></a>
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day81/codigoMorse.py"><img src="https://i.imgur.com/0cVkwIX.png"></a>
 </p>
 <h2 align="center">
 Dia 82
@@ -660,7 +660,7 @@ Dia 82
   <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day82/portfolio.html"><img src="https://i.imgur.com/AutyVCd.png"></a>
 </p>
 <h2 align="center">
-Dia 82
+Dia 83
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
