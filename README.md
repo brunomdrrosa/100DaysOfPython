@@ -668,6 +668,13 @@ Dia 83
 </p>
 <h2 align="center">
 Dia 84
+</h2>
+<h3 align="center"> Marca d'água na imagem 🖼️</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day84/marca.ipynb"><img src="https://i.imgur.com/mftkzKM.png"></a>
+</p>
+<h2 align="center">
+Dia 85
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
