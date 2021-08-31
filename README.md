@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-86">Último projeto</a> •
+ <a href="#dia-88">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -696,6 +696,13 @@ Dia 87
 </p>
 <h2 align="center">
 Dia 88
+</h2>
+<h3 align="center"> Todo - Lista de tarefas 📝</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day88/main.py"><img src="https://i.imgur.com/HjSGPdj.png"></a>
+</p>
+<h2 align="center">
+Dia 89
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
