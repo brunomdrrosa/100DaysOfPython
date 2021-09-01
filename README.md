@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#dia-91">Último projeto</a> •
+ <a href="#dia-93">Último projeto</a> •
  <a href="#-dia-1---dia-20">Dia 1 -> 20</a> •
  <a href="#-dia-21---dia-40">Dia 21 -> 40</a> •
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
@@ -731,6 +731,13 @@ Dia 92
 </p>
 <h2 align="center">
 Dia 93
+</h2>
+<h3 align="center"> Automatização do jogo do Dinossauro da Google 🦖</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day93/main.py"><img src="https://media.giphy.com/media/aLmG8SUtW3TlB5k5RI/giphy.gif?cid=790b7611519151cd05c34b603560a3a04cd8f1fd8a399a66&rid=giphy.gif&ct=g"></a>
+</p>
+<h2 align="center">
+Dia 94
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
