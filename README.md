@@ -11,6 +11,7 @@
  <a href="#-dia-41---dia-60">Dia 41 -> 60</a> •
  <a href="#-dia-61---dia-80">Dia 61 -> 80</a> •
  <a href="#-dia-81---dia-100">Dia 81 -> 100</a> •
+  <a href="#-certificado">Certificado</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
 
@@ -784,6 +785,12 @@ Dia 100
 <p align="center">
   <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day100/Determinants_of_Earnings_(start).py"><img src="https://i.imgur.com/GwgGreV.png"></a>
 </p>
+
+---
+
+## 🎓 Certificado
+
+  <a href="https://www.udemy.com/certificate/UC-28a05fbf-020b-4dcb-9037-a9b722987791/"><img src="https://i.imgur.com/oZJsXCo.jpg"></a>
 
 ---
 
