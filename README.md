@@ -752,6 +752,20 @@ Dia 95
 </p>
 <h2 align="center">
 Dia 96
+</h2>
+<h3 align="center"> E-Commerce com Django 🛒</h3>
+<h1 align="center">
+EM BREVE ⚠️
+</h1>
+<h2 align="center">
+Dia 97
+</h2>
+<h3 align="center"> Aviso mensal por e-mail 📧</h3>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day97/main.py"><img src="https://i.imgur.com/PP7CTZL.png"></a>
+</p>
+<h2 align="center">
+Dia 98
 </h2>	
 <h1 align="center">
 EM BREVE ⚠️
