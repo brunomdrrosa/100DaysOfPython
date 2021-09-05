@@ -1,7 +1,7 @@
 <a href="https://www.udemy.com/course/100-days-of-code/"><img src="https://www.filepicker.io/api/file/3NnBLlfNQBmFbKRNlWwg"/></a>
 
 <h4 align="center"> 
-🗓️ 100 dias de Python 🐍 Em andamento ⚠️
+🗓️ 100 dias de Python 🐍 Concluído ✅
 </h4>
 
 <p align="center">
@@ -754,9 +754,9 @@ Dia 95
 Dia 96
 </h2>
 <h3 align="center"> E-Commerce com Django 🛒</h3>
-<h1 align="center">
-EM BREVE ⚠️
-</h1>
+<p align="center">
+  <a href="https://github.com/brunomdrrosa/100DaysOfPython/blob/main/Day96/django-ecommerce-master"><img src="https://i.imgur.com/oenI7Ev.png"></a>
+</p>
 <h2 align="center">
 Dia 97
 </h2>
